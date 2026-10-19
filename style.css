@@ -10,7 +10,7 @@ img, iframe { max-width: 100%; }
 /* ---------- MÓVIL (base) ---------- */
 header {
   position: sticky; top: 0; z-index: 10;
-  background: #000; padding: 10px 12px; text-align: center;
+  background: #000000; padding: 10px 12px; text-align: center;
 }
 header h1 {
   font-size: 1.1rem; margin-bottom: 6px;
@@ -20,14 +20,14 @@ header h1 img { height: 32px; width: auto; }
 
 nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 2px 12px; }
 nav a {
-  color: #d4a017; text-decoration: none; font-weight: bold;
+  color: #ffffff; text-decoration: none; font-weight: bold;
   font-size: clamp(.7rem, 3.2vw, .9rem); padding: 6px 2px;
 }
-nav a.activo { border-bottom: 2px solid #d4a017; }
+nav a.activo { border-bottom: 2px solid #fefdfc; }
 
 section { padding: 40px 16px; scroll-margin-top: 90px; }
 section h2 {
-  color: #d4a017; margin-bottom: 12px;
+  color: #969496; margin-bottom: 12px;
   font-size: clamp(1.4rem, 5vw, 2rem);
 }
 section ul { margin: 12px 0 0 20px; }
@@ -47,7 +47,7 @@ section ul { margin: 12px 0 0 20px; }
 
 .btn {
   display: inline-block; margin-top: 20px; padding: 12px 24px;
-  background: #d4a017; color: #000; border-radius: 6px;
+  background: #1C1B1C; color: #eae2e2; border-radius: 6px;
   text-decoration: none; font-weight: bold;
 }
 
@@ -74,13 +74,13 @@ section ul { margin: 12px 0 0 20px; }
   flex: 1 1 140px; text-align: center; text-decoration: none;
   font-weight: bold; font-size: .9rem; padding: 10px 14px; border-radius: 6px;
 }
-.btn-info { background: #d4a017; color: #000; }
+.btn-info { background: #1C1B1C; color: #000; }
 .btn-wpp { background: #25D366; color: #fff; }
 
 /* Cursos: próximamente */
 .proximamente {
   margin-top: 16px; padding: 32px 20px; text-align: center;
-  background: #1b1b1b; border: 2px dashed #d4a017; border-radius: 10px;
+  background: #1b1b1b; border: 2px dashed #8a8588; border-radius: 10px;
   display: flex; flex-direction: column; align-items: center; gap: 10px;
 }
 .proximamente > i { font-size: 2rem; color: #d4a017; }
@@ -106,7 +106,7 @@ section ul { margin: 12px 0 0 20px; }
 
 /* Footer */
 footer {
-  background: #000; border-top: 2px solid #d4a017;
+  background: #000; border-top: 2px solid #e5e4e2;
   padding: 40px 16px 90px; /* abajo deja lugar al botón de WhatsApp */
   margin-top: 20px;
 }
@@ -114,30 +114,30 @@ footer {
   display: grid; grid-template-columns: 1fr; gap: 28px;
   max-width: 1000px; margin: 0 auto;
 }
-.footer-col h3 { color: #d4a017; margin-bottom: 8px; }
-.footer-col h4 { color: #d4a017; margin-bottom: 10px; font-size: 1rem; }
+.footer-col h3 { color: #70706f; margin-bottom: 8px; }
+.footer-col h4 { color: #70706f; margin-bottom: 10px; font-size: 1rem; }
 .footer-col p { font-size: .9rem; color: #ccc; margin-bottom: 4px; }
 .footer-col > a {
   display: block; color: #ccc; text-decoration: none;
   font-size: .9rem; padding: 3px 0;
 }
-.footer-col > a:hover { color: #d4a017; }
+.footer-col > a:hover { color: #f9f8f6; }
 
 .redes { display: flex; gap: 12px; }
 .redes a {
   width: 40px; height: 40px; border-radius: 50%;
-  background: #1b1b1b; color: #d4a017; font-size: 20px;
+  background: #1b1b1b; color: #a9a9a6; font-size: 20px;
   display: flex; align-items: center; justify-content: center;
   text-decoration: none; transition: background .3s, color .3s;
 }
-.redes a:hover { background: #d4a017; color: #000; }
+.redes a:hover { background: #1C1B1C; color: #000; }
 
 .footer-final {
   max-width: 1000px; margin: 28px auto 0; padding-top: 16px;
   border-top: 1px solid #333; text-align: center;
   font-size: .8rem; color: #999;
 }
-.footer-final a { color: #d4a017; text-decoration: none; font-weight: bold; }
+.footer-final a { color: #faf8f8; text-decoration: none; font-weight: bold; }
 
 /* ---------- TABLET (768px o más) ---------- */
 @media (min-width: 768px) {
@@ -170,7 +170,7 @@ footer {
   section:not(.hero) { max-width: 1000px; }
   .galeria { gap: 16px; }
   .mapa iframe { height: 450px; }
-  .btn:hover { background: #f0b82a; }
+  .btn:hover { background: #fdfcfb; }
   .galeria img { transition: transform .3s; }
   .galeria img:hover { transform: scale(1.04); }
   .cursos { grid-template-columns: repeat(3, 1fr); }
