@@ -77,6 +77,20 @@ section ul { margin: 12px 0 0 20px; }
 .btn-info { background: #d4a017; color: #000; }
 .btn-wpp { background: #25D366; color: #fff; }
 
+/* Cursos: próximamente */
+.proximamente {
+  margin-top: 16px; padding: 32px 20px; text-align: center;
+  background: #1b1b1b; border: 2px dashed #d4a017; border-radius: 10px;
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+}
+.proximamente > i { font-size: 2rem; color: #d4a017; }
+.proximamente h3 { color: #fff; font-size: 1.3rem; }
+.proximamente p { color: #ccc; max-width: 480px; }
+.proximamente .btn-wpp {
+  margin-top: 8px; padding: 12px 20px; border-radius: 6px;
+  text-decoration: none; font-weight: bold;
+}
+
 /* Mapa */
 .mapa { margin-top: 12px; border-radius: 8px; overflow: hidden; }
 .mapa iframe { width: 100%; height: 280px; border: 0; display: block; }
